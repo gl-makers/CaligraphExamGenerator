@@ -1,0 +1,9 @@
+body {
+  padding: 32px;
+}
+
+/* 导入字体 */
+@font-face {
+  font-family: TianyinzhangXK;
+  src: url('./assets/TianyinzhangXK.ttf') format('truetype'),
+}
