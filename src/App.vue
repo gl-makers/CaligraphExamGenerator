@@ -6,7 +6,7 @@
     <n-space vertical>
       <n-space>
         选择字体
-        <n-select v-model:value="font" :options="fonts" />
+        <n-select v-model:value="font" :options="fonts" style="width: 150px;"/>
       </n-space>
       <n-space>
         <n-button type="primary" @click="count++"> + </n-button>
@@ -18,7 +18,7 @@
             v-model:value="text[Number(index)]"
             @change="render"
             type="text"
-            placeholder="行"
+            placeholder="字"
             style="width: 60px"
           />
         </template>
